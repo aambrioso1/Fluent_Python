@@ -8,7 +8,7 @@
 * Illustrates the use of collections.nametuple.   Nametuple can be used to construnct class of objects that are
 a collection of attributes.
 
-The class implemented in the example [code]("https://github.com/aambrioso1/Fluent_Python/blob/master/01-data-model/frenchdeck.py") creates a class to represent a deck of cards.    By implementing the dunder methods, the deck can be indexed and sliced.   Its length can computed with len() and random cards can be selected using the random.choice function to draw a random card.
+The class implemented in the example [code](https://github.com/aambrioso1/Fluent_Python/blob/master/01-data-model/frenchdeck.py) creates a class to represent a deck of cards.    By implementing the dunder methods, the deck can be indexed and sliced.   Its length can computed with len() and random cards can be selected using the random.choice function to draw a random card.
 
 ### Example Output
 
