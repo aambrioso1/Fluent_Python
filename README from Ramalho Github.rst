@@ -1,6 +1,4 @@
-The code examples come from Ramalho's site here: 
-
-.. _Example Code: https://github.com/fluentpython/example-code
+The code examples come from Ramalho's site here: .. _ Example Code: https://github.com/fluentpython/example-code
 
 
 
