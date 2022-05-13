@@ -1,4 +1,4 @@
-##### Notes for Fluent Python
+##### Chapter 1:  The Pythonic Data Model
 
 # Code Examples
 
@@ -11,6 +11,8 @@ a collection of attributes.
 The class implemented in the example [code]("\example-code\01-data-model\frenchdeck.py") creates a class to represent a deck of cards.    By implementing the dunder methods, the deck can be indexed and sliced.   Its length can computed with len() and random cards can be selected using the random.choice function to draw a random card.
 
 ### Example Output
+
+```
 >>> from frenchdeck import *
 >>> suicide_king = Card('hearts', 'K')
 >>> suicide_king
@@ -109,3 +111,4 @@ Card(rank='A', suit='clubs')
 Card(rank='A', suit='diamonds')
 Card(rank='A', suit='hearts')
 Card(rank='A', suit='spades')
+```
