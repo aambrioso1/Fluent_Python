@@ -1,4 +1,4 @@
-The code examples come from Ramalho's site here: .. _ Example Code: https://github.com/fluentpython/example-code
+The code examples come from Ramalho's site here: https://github.com/fluentpython/example-code
 
 
 
@@ -17,4 +17,4 @@ Example code for the book `Fluent Python, First Edition` by Luciano Ramalho (O'R
 
 * No promises. No guarantees. Use at own risk.
 
-.. _Fluent Python: http://shop.oreilly.com/product/0636920032519.do 
+Fluent Python: http://shop.oreilly.com/product/0636920032519.do 
