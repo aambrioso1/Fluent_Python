@@ -52,7 +52,7 @@ The __str__ constructor is returns a string suitable for display by the end user
 "Difference between __str__ and __repr__ in Python"](http://bit.ly/1Vm7j1N)
 
 Python documentation of the truth value testing rules in Python can be found here:
-["Built-in Types"](http://docs.python.org/3/library/stdtypes.html/#truth)
+["Built-in Types"](http://docs.python.org/3/library/stdtypes.html#truth)
 
 The [Data Model](http://docs.python.org/3/reference/datamodel.html) chapter of the Python Language Reference includes a list of special methods.   FP has an overview on pp. 13-14.
 
