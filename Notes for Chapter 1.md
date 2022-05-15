@@ -36,6 +36,29 @@ def spades_high(card):
 * Illustrates the use of collections.nametuple.   Nametuple can be used to construct classes of objects that are
 a collection of attributes.
 
+
+Note that none of the special methods is directly called within the class.   "The Python interpreter is the only frequent caller of most special methods" [FP, p. 10]
+
+The __repr__ special method is called to get the string representation of the object.
+
+```
+>>> v0, v1, v2
+(Vector(0, 0), Vector(2, 4), Vector(5, 12))
+```
+
+Note the use of %r.   This makes sure the string representation will be executable.   Without it the representation would be Vector('3', '4') and arguments would be invalid string values.  The string representation should look like a call to the constructor of the class.
+
+The __str__ constructor is returns a string suitable for display by the end users.   The author recommend this SO question for more information about the difference between __str__ and __repr__ :
+"Difference between __str__ and __repr__ in Python"](http://bit.ly/1Vm7j1N)
+
+Python documentation of the truth value testing rules in Python can be found here:
+["Built-in Types"](http://docs.python.org/3/library/stdtypes.html/#types)
+
+The [Data Model](http://docs.python.org/3/reference/datamodel.html) chapter of the Python Language Reference includes a list of special methods.   FP has an overview on pp. 13-14.
+
+Perhaps worth looking at ["The Art of the Metaobject Protocol"](https://www.amazon.com/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
+
+
 ### Example output for FrenchDeck class
 
 ```
@@ -196,25 +219,4 @@ False
 >>> bool(v1)
 True
 ```
-
-Note that none of the special methods is directly called within the class.   "The Python interpreter is the only frequent caller of most special methods" [FP, p. 10]
-
-The __repr__ special method is called to get the string representation of the object.
-
-```
->>> v0, v1, v2
-(Vector(0, 0), Vector(2, 4), Vector(5, 12))
-```
-
-Note the use of %r.   This makes sure the string representation will be executable.   Without it the representation would be Vector('3', '4') and arguments would be invalid string values.  The string representation should look like a call to the constructor of the class.
-
-The __str__ constructor is returns a string suitable for display by the end users.   The author recommend this SO question for more information about the difference between __str__ and __repr__ :
-"Difference between __str__ and __repr__ in Python"](http://bit.ly/1Vm7j1N)
-
-Python documentation of the truth value testing rules in Python can be found here:
-["Built-in Types"](http://docs.python.org/3/reference/stdtypes/#types)
-
-The Data Model chapter of the [Python Language Reference](http://docs.python.org/3/reference/datamodel.html) includes a list of special methods.   FP has an overview on pp. 13-14.
-
-Perhaps worth looking at ["The Art of the Metaobject Protocol"](https://www.amazon.com/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
 
