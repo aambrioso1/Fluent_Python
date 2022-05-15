@@ -200,8 +200,11 @@ True
 Note that none of the special methods is directly called within the class.   "The Python interpreter is the only frequent caller of most special methods" [FP, p. 10]
 
 The __repr__ special method is called to get the string representation of the object.
+
+```
 >>> v0, v1, v2
 (Vector(0, 0), Vector(2, 4), Vector(5, 12))
+```
 
 Note the use of %r.   This makes sure the string representation will be executable.   Without it the representation would be Vector('3', '4') and arguments would be invalid string values.  The string representation should look like a call to the constructor of the class.
 
