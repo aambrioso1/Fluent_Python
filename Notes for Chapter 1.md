@@ -209,10 +209,10 @@ The __repr__ special method is called to get the string representation of the ob
 Note the use of %r.   This makes sure the string representation will be executable.   Without it the representation would be Vector('3', '4') and arguments would be invalid string values.  The string representation should look like a call to the constructor of the class.
 
 The __str__ constructor is returns a string suitable for display by the end users.   The author recommend this SO question for more information about the difference between __str__ and __repr__ :
-"Difference between __str__ and __repr__ in Python"](http://bit.ly/1Vm2j1N)
+"Difference between __str__ and __repr__ in Python"](http://bit.ly/1Vm7j1N)
 
 Python documentation of the truth value testing rules in Python can be found here:
-["Built-in Types"](http://docs.python.org/3/library/stdtypes/#types)
+["Built-in Types"](http://docs.python.org/3/reference/stdtypes/#types)
 
 The Data Model chapter of the [Python Language Reference](http://docs.python.org/3/reference/datamodel.html) includes a list of special methods.   FP has an overview on pp. 13-14.
 
